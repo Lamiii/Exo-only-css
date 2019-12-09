@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+}
+
+.col-black{
+    background-color: black;
+    height: 23rem;
+    width: 20%;
+}
+
+.col-white{
+    height: 23rem;
+    width: 20%;
+}

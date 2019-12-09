@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    background: #ee6e73;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-body{
+    text-align: center;
+    
+}
+
+.circle{
+    height: 10rem;
+    width: 10rem;
+    background-color: grey;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.box-body h2{
+    font-size: 3.5rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.box-body button{
+    padding: 1rem 2.5rem;
+    background: transparent;
+    color: white;
+    border: 1px solid grey;
+    margin: 0 1.5rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.box-body button:hover{
+    background: grey;
+}
